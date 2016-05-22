@@ -24,13 +24,16 @@
                                     <constraint firstAttribute="height" constant="32" id="2jP-vW-KcX"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aXw-L6-m5S">
-                                <rect key="frame" x="49" y="173" width="222" height="0.0"/>
+                                <rect key="frame" x="49" y="177" width="222" height="32"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="32" id="PBi-3s-5Rz"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qky-HS-cIN">
@@ -50,7 +53,7 @@
                                     <constraint firstAttribute="height" constant="21" id="H45-e9-4n7"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
@@ -59,9 +62,9 @@
                             <constraint firstAttribute="trailingMargin" secondItem="Qky-HS-cIN" secondAttribute="trailing" constant="37" id="VKk-7D-OUT"/>
                             <constraint firstItem="aXw-L6-m5S" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="33" id="WVi-hx-7kF"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="Qky-HS-cIN" secondAttribute="bottom" constant="100" id="Ybg-y9-XdS"/>
-                            <constraint firstItem="aXw-L6-m5S" firstAttribute="top" secondItem="qzQ-92-gcv" secondAttribute="bottom" constant="99" id="ZII-rj-419"/>
                             <constraint firstAttribute="trailingMargin" secondItem="Qky-HS-cIN" secondAttribute="trailing" constant="37" id="ZK1-Sm-etL"/>
                             <constraint firstAttribute="trailingMargin" secondItem="qzQ-92-gcv" secondAttribute="trailing" constant="33" id="aLL-Sf-r2c"/>
+                            <constraint firstItem="t7n-YP-YN3" firstAttribute="top" secondItem="aXw-L6-m5S" secondAttribute="bottom" constant="70" id="h69-Tk-HNG"/>
                             <constraint firstItem="t7n-YP-YN3" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="279" id="hVz-Nx-cUl"/>
                             <constraint firstItem="Qky-HS-cIN" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="37" id="hlk-NH-GQD"/>
                             <constraint firstItem="qzQ-92-gcv" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="22" id="ia5-I7-tbv"/>
