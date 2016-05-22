@@ -33,6 +33,11 @@ class coleccionDePaises {
                        "Cuba",
                        "Irán"]
     
+/*    init {
+        coleccionDePaises.self
+    }
+*/
+    
     func obtienePais() -> String {
         let posicion = Int(arc4random()) % paisesArray.count
         
