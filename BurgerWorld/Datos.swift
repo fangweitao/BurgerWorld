@@ -40,7 +40,7 @@ class coleccionDePaises {
 */
     
     func obtienePais() -> String {
-        let posicion = Int(arc4random()) % paisesArray.count
+        let posicion : Int = Int(arc4random()) % paisesArray.count
         
         return paisesArray[posicion]
     }
@@ -73,7 +73,7 @@ class coleccionDeHamburguesas {
                        "Churretera"]
     
     func obtieneHamburguesa() -> String {
-        let posicion = Int(arc4random()) % hamburguesasArray.count
+        let posicion : Int = Int(arc4random()) % hamburguesasArray.count
         
         return hamburguesasArray[posicion]
     }
