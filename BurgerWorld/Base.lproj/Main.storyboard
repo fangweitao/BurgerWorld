@@ -27,8 +27,8 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aXw-L6-m5S">
-                                <rect key="frame" x="49" y="173" width="222" height="20.5"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aXw-L6-m5S">
+                                <rect key="frame" x="49" y="173" width="222" height="0.0"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
@@ -44,8 +44,11 @@
                                     <action selector="botonQuieroBurger" destination="BYZ-38-t0r" eventType="touchUpInside" id="YcS-KU-f6z"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="t7n-YP-YN3">
-                                <rect key="frame" x="53" y="279" width="214" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="t7n-YP-YN3">
+                                <rect key="frame" x="49" y="279" width="222" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="H45-e9-4n7"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
@@ -59,6 +62,7 @@
                             <constraint firstItem="aXw-L6-m5S" firstAttribute="top" secondItem="qzQ-92-gcv" secondAttribute="bottom" constant="99" id="ZII-rj-419"/>
                             <constraint firstAttribute="trailingMargin" secondItem="Qky-HS-cIN" secondAttribute="trailing" constant="37" id="ZK1-Sm-etL"/>
                             <constraint firstAttribute="trailingMargin" secondItem="qzQ-92-gcv" secondAttribute="trailing" constant="33" id="aLL-Sf-r2c"/>
+                            <constraint firstItem="t7n-YP-YN3" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="279" id="hVz-Nx-cUl"/>
                             <constraint firstItem="Qky-HS-cIN" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="37" id="hlk-NH-GQD"/>
                             <constraint firstItem="qzQ-92-gcv" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="22" id="ia5-I7-tbv"/>
                             <constraint firstItem="t7n-YP-YN3" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="33" id="lO3-oT-aiy"/>
